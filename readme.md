@@ -1,118 +1,70 @@
-/* Global styles */
-body {
-    font-family: "Segoe UI", Tahoma, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f8f9fb;
-    color: #333;
-    line-height: 1.6;
-}
+# 🌐 Personal Portfolio Website  
 
-/* Header */
-header {
-    background: linear-gradient(to right, #2c3e50, #34495e);
-    color: white;
-    padding: 25px 10px;
-    text-align: center;
-    border-bottom: 4px solid #e67e22;
-}
+## 📌 Project Overview  
+This is a **multi-page personal portfolio website** built using **HTML and CSS**.  
+The website highlights my personal information, hobbies, skills, image gallery, and contact details.  
 
-header h1 {
-    margin: 0;
-    font-size: 2.2em;
-}
+The project follows the given requirements:  
+- At least **5 different pages** (Home, Hobbies, Contact Me, Image Gallery, Personal Skills).  
+- **Consistent navigation** across all pages.  
+- Uses **internal/external CSS** (no inline).  
+- Includes an **image gallery** with at least 5 images.  
+- Proper layout styling with **float and clear**.  
+- A **sticky footer** at the bottom.  
+- Includes a **Dark Mode (default)** modern design.  
 
-/* Navigation */
-nav {
-    background: #ecf0f1;
-    padding: 10px 0;
-    border-bottom: 2px solid #dcdcdc;
-    text-align: center;
-}
+---
 
-nav a {
-    margin: 0 18px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #2c3e50;
-    padding: 8px 14px;
-    border-radius: 5px;
-    transition: background 0.3s;
-}
+## 📂 Folder Structure  
 
-nav a:hover {
-    background: #e67e22;
-    color: white;
-}
+```
+portfolio/
+│── home.html
+│── hobbies.html
+│── skills.html
+│── gallery.html
+│── contact.html
+│── README.md
+│
+├── css/
+│   └── styles.css
+│
+└── images/
+    ├── im1.png
+    ├── im2.png
+    ├── im3.png
+    ├── im4.png
+    └── im5.png
+```
 
-/* Container */
-.container {
-    max-width: 1000px;
-    margin: 20px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-}
+---
 
-/* Footer */
-footer {
-    background: #2c3e50;
-    color: white;
-    text-align: center;
-    padding: 12px;
-    margin-top: 20px;
-    border-top: 4px solid #e67e22;
-}
+## 🌐 Pages  
 
-/* Home page image + text */
-.profile-img {
-    float: left;
-    margin: 10px 20px 10px 0;
-    border-radius: 50%;
-    border: 4px solid #e67e22;
-    width: 220px;
-    height: 220px;
-    object-fit: cover;
-}
+1. **Home** – Introduction and short bio  
+2. **Hobbies** – List of personal hobbies  
+3. **Personal Skills** – Technical and soft skills  
+4. **Image Gallery** – Collection of 5+ images  
+5. **Contact Me** – Email, phone, and contact details  
 
-.bio-text {
-    overflow: hidden; /* clears float */
-}
+---
 
-/* Lists */
-ul {
-    list-style-type: square;
-    padding-left: 20px;
-}
+## 🖌️ Styling Features  
 
-ul li {
-    padding: 6px 0;
-    border-bottom: 1px dashed #ccc;
-}
+- **Dark Mode enabled by default** with clean modern colors  
+- **Navigation bar** styled horizontally with hover effects  
+- **Image gallery** arranged using `float` and `clear`  
+- **Footer fixed** at the bottom of the page  
+- Consistent fonts, colors, and spacing across all pages  
 
-/* Gallery */
-.gallery {
-    margin: 20px 0;
-}
+---
 
-.gallery img {
-    float: left;
-    width: 30%;
-    margin: 1.66%;
-    border-radius: 8px;
-    border: 3px solid #ddd;
-    transition: transform 0.3s, border-color 0.3s;
-}
+## ▶️ How to Run  
 
-.gallery img:hover {
-    transform: scale(1.05);
-    border-color: #e67e22;
-}
+1. Download and extract the `.zip` file.  
+2. Open `home.html` in any modern web browser.  
+3. Navigate to other pages using the navigation menu.  
 
-/* Clearfix for floats */
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-}
+---
+
+✅ This completes the portfolio website project.  
